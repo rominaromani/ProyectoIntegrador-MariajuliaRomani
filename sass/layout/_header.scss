@@ -45,11 +45,12 @@
         order: 3;
         text-align: center;
         width: 100%;
+        color: #647B6E;
     }
 
     &__form-container{
         order: 1;
-        padding-left: 10px;
+        padding-left: 5.1rem;
         padding-top: 10px;
         height: min-content;
         transition: transform 0.1s;
@@ -82,7 +83,7 @@
     &__carrito-container{
         order: 2;
         margin-left: auto;
-        padding-right: 5px;
+        padding-right: 5.1rem;
         padding-top: 10px;
         position: relative;
         cursor: pointer;
@@ -94,6 +95,16 @@
 
         &:hover{
             transform: translateY(-1px);
+        }
+    }
+
+    @media (max-width: 760px){
+        &__form-container{
+            padding-left: 2.3rem;
+        }
+
+        &__carrito-container{
+            padding-right: 2.3rem;
         }
     }
 }
