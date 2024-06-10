@@ -2,16 +2,41 @@
     width: 220px;
     max-width: 300px;
     height: 400px;
-    background-color: orange;
     overflow: hidden;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
+    transition: transform .2s;
+    position: relative;
+    cursor: pointer;
+    
+    &:hover &__image, &:focus &__image, &:hover{
+        transform: scale(1.05);
+        border: 1px solid rgba(0,0,0,0.3);
+        z-index: 2;
+    }
+    &::before {
+        content: "Vista rápida";
+        display: none;
+        background-color: rgba(255, 255, 255, 0.8);
+        color: #333;
+        padding: 5px 10px;
+        border-radius: 5px;
+        opacity: 0;
+        transition: opacity 0.2s;
+        font-size: 1rem;
+        pointer-events: none;
+        top: 65%;
+        left: 25%;
+    }
+
+    &:hover::before {
+        display: block;
+        opacity: 1;
+        position: absolute;
+        z-index: 1;
+    }
 
     &__image-container{
-        height: 200px;
+        height: 300px;
         overflow: hidden;
-        background-color: blue;
     }
 
 
@@ -21,6 +46,12 @@
         object-fit: cover; // la imagen se ajusta al contenedor, evitando que se deforme
     }
 
+    &__content{
+        text-align: center;
+        h2,p{
+            font-weight: 250;
+        }
+    }
 
 
     @media (max-width: 760px){
@@ -32,6 +63,13 @@
 
         &__article{
             display: flex;
+        }
+
+        &__content{
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
     }
 
