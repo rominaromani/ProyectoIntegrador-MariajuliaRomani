@@ -5,7 +5,6 @@
 
 .nav-bar{
     
-    background-color: azure;
     text-transform: uppercase;
 
     &__nav-list{
@@ -23,6 +22,11 @@
         padding: 1em 2em;
         text-decoration: none;
         text-align: center;
+        color: black;
+
+        &:hover{
+            color: #647B6E;
+        }
     }
 }
 
@@ -34,25 +38,63 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 50vh;
-    border: 1px solid black;
+    height: 35vh;
     flex-wrap: wrap;
 
     &__logo-container{
         order: 3;
         text-align: center;
-        border: 1px solid black;
         width: 100%;
     }
 
     &__form-container{
         order: 1;
-        border: 1px solid black;
+        padding-left: 10px;
+        padding-top: 10px;
+        height: min-content;
+        transition: transform 0.1s;
+
+        &:hover {
+            transform: translateY(-1px);
+        }
+    }
+
+    &__form-button{
+        border: none;
+        background-color: white;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    &__form-search{
+        border: none;
+        border-bottom: 1px solid black;
+
+        &:hover{
+            border-bottom: 1.5px solid black;
+        }
+    }
+
+    &__form-label{
+        display: none;
     }
 
     &__carrito-container{
         order: 2;
-        border: 1px solid black;
         margin-left: auto;
+        padding-right: 5px;
+        padding-top: 10px;
+        position: relative;
+        cursor: pointer;
+        
+        img{
+            width: 1.70em;
+            transition: transform 0.1s;
+        }
+
+        &:hover{
+            transform: translateY(-1px);
+        }
     }
 }
+
