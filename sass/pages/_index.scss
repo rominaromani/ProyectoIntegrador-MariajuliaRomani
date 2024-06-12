@@ -1,15 +1,17 @@
-.section-cards{
+.section-cards {
     padding: 1rem;
 
     &__header {
         position: relative;
         margin-bottom: 20px;
-        h1{
+
+        h1 {
             text-align: center;
             text-transform: uppercase;
-            font-weight:lighter;
+            font-weight: lighter;
             margin-bottom: 20px;
             color: #647B6E;
+
             &:before,
             &:after {
                 content: "";
@@ -30,17 +32,24 @@
                 left: 100%;
                 margin-left: 15px;
             }
-            
-        }    
+        }
 
-        p{
+        p {
             padding-left: 2rem;
         }
     }
+
+    @media (max-width: 768px) {
+
+        &__header h1:after, h1:before {
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 10px;
+            margin: 15px auto;
+        }
+    }
 }
-
-
-
 
 .cards-container{
     display: flex;
