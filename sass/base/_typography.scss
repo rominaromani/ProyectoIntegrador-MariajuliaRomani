@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap');
+
 body{
     font-family: "Noto Sans", sans-serif;
     font-size: 100%;
@@ -23,14 +25,14 @@ body{
 }
 
 .footer{
-    font-family: "Noto Sans", sans-serif;
-    font-size: 0.8em;
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 1em;
 
 }
 
-.section-cards__header{
-    font-family: "Zen Maru Gothic", serif;
-    font-size: 0.8em;
+.section-cards__header, .contact-form__header, .map__header{
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 1em;
 }
 
 .card h2{
@@ -40,4 +42,9 @@ body{
 
 .card p{
     font-size: 'Zen Maru Gothic', sans-serif;   
+}
+
+.marca-section__description{
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 1em;
 }
