@@ -31,11 +31,11 @@
             <label for="busqueda" class="search-bar__form-label">Buscar</label>
             <input type="search" class="search-bar__form-search" id="busqueda" placeholder="BUSCAR...">
             <button type="submit" class="search-bar__form-button">
-              <img src="./iconos/buscar.svg" alt="">
+              <img src="../iconos/buscar.svg" alt="">
             </button>
           </form>
           <div class="search-bar__carrito-container">
-            <img src="./iconos/carrito.svg" alt="carrito">
+            <img src="../iconos/carrito.svg" alt="carrito">
           </div>
           <div class="menu-toogle">
             <label for="menu" class="menu-toogle__label">
@@ -47,69 +47,118 @@
         </div> <!-- .search-bar -->
   
       </header> <!-- main-header -->
-    <div class=" contenido">Falta</div>
+    
+      <!-- Formulario de contacto -->
+<section class="contact-form">
+  
+  <header class="contact-form__header">
+    <h1>Contacto</h1>
+  </header>
+
+  <p class="contact-form__instructions">Para cualquier consulta sobre una compra, envíanos el número y la fecha de tu compra.</p>
+  <form action="#" class="contact-form__form">
+    <div class="contact-form__group">
+      <div class="contact-form__field">
+        <label for="first-name" class="contact-form__label">Introduce tu nombre</label>
+        <input type="text" id="first-name" class="contact-form__input" placeholder="Nombre">
+      </div>
+      <div class="contact-form__field">
+        <label for="last-name" class="contact-form__label">Introduce tu apellido</label>
+        <input type="text" id="last-name" class="contact-form__input" placeholder="Apellido">
+      </div>
+    </div>
+    <div class="contact-form__group">
+      <div class="contact-form__field">
+        <label for="email" class="contact-form__label">Introduce tu email *</label>
+        <input type="email" id="email-contact" class="contact-form__input" placeholder="Email">
+      </div>
+      <div class="contact-form__field">
+        <label for="phone" class="contact-form__label">Introduce tu teléfono</label>
+        <input type="tel" id="phone" class="contact-form__input" placeholder="Teléfono">
+      </div>
+    </div>
+    <div class="contact-form__field">
+      <label for="message" class="contact-form__label">Escribe tu mensaje aquí</label>
+      <textarea id="message" class="contact-form__textarea" placeholder="Mensaje"></textarea>
+    </div>
+    <button type="submit" class="contact-form__button">Enviar</button>
+  </form>
+</section>
+
+<section class="map">
+  <header class="map__header">
+    <h2>Ubicación</h2>
+  </header>
+
+  <div class="map__container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31207.38271441921!2d-77.04275463955078!3d-12.046373000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8bc2a6583a5%3A0x106576ccbfef78c0!2sAv.%20Almirante%20Miguel%20Grau%2C%20Lima%2015074%2C%20Per%C3%BA!5e0!3m2!1ses-419!2sus!4v1621537112134!5m2!1ses-419!2sus"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</section>
+
     <!-- footer -->
     <footer class="footer">
-        <div class="footer__logo-container">FashionFusion</div>
-        <div class="footer__content">
-        <div class="footer__nav-container">
-          <ul class="footer__nav-list">
-            <li class="nav-bar__nav-item">
-              <a href="../index.html" class="nav-bar__nav-link">Inicio</a>
-            </li>
-            <li class="nav-bar__nav-item">
-              <a href="./alta.html" class="nav-bar__nav-link">Alta</a>
-            </li>
-            <li class="nav-bar__nav-item">
-              <a href="./nosotros.html" class="nav-bar__nav-link">Nosotros</a>
-            </li>
-            <li class="nav-bar__nav-item">
-              <a href="./contacto.html" class="nav-bar__nav-link">Contacto</a>
-            </li>
-          </ul>
-        </div>
-  
-        <div class="footer__nav-container">
-          <ul class="footer__nav-list">
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Centro de ayuda</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Envíos/Devoluciones</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Políticas de la tienda</a>
-            </li>
-            <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Métodos de pago</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__contact-container">
-          <p>info@fashionfusion.com</p>
-          <p>Av. Almirante Miguel Grau, 28021 Lima</p>
-          <p>Tel: 987-123-456</p>
-        </div>
-        <div class="footer__social-container">
-          <a href="#" class="footer__social-link">
-            <img src="./iconos/facebook.svg" alt="facebook">
-          </a>
-          <a href="#" class="footer__social-link">
-            <img src="./iconos/instagram.svg" alt="instagram">
-          </a>
-          <a href="#" class="footer__social-link">
-            <img src="./iconos/twitter.svg" alt="twitter">
-          </a>
-        </div>
-        <div class="footer__subscription">
-          <form action="#" class="footer__subscription-form">
-            <label for="email" class="footer__subscription-label">Suscríbete. Mantén tu estilo</label>
-            <input type="email" class="footer__subscription-input" id="email" placeholder="Ingresa tu email aquí">
-            <button type="submit" class="footer__subscription-button">Unirse</button>
-          </form>
-        </div>
+      <div class="footer__logo-container">FashionFusion</div>
+      <div class="footer__content">
+      <div class="footer__nav-container">
+        <ul class="footer__nav-list">
+          <li class="footer__nav-item">
+            <a href="../index.html" class="footer__nav-link">Inicio</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="./alta.html" class="footer__nav-link">Alta</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="./nosotros.html" class="footer__nav-link">Nosotros</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="./contacto.html" class="footer__nav-link">Contacto</a>
+          </li>
+        </ul>
       </div>
-      </footer>
+
+      <div class="footer__nav-container">
+        <ul class="footer__nav-list">
+          <li class="footer__nav-item">
+            <a href="#" class="footer__nav-link">Centro de ayuda</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="#" class="footer__nav-link">Envíos/Devoluciones</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="#" class="footer__nav-link">Políticas de la tienda</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="#" class="footer__nav-link">Métodos de pago</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__contact-container">
+        <p>info@fashionfusion.com</p>
+        <p>Av. Almirante Miguel Grau, 15074 Lima, Perú</p>
+        <p>Tel: 987-123-456</p>
+      </div>
+      <div class="footer__social-container">
+        <a href="#" class="footer__social-link">
+          <img src="../iconos/facebook.svg" alt="facebook">
+        </a>
+        <a href="#" class="footer__social-link">
+          <img src="../iconos/instagram.svg" alt="instagram">
+        </a>
+        <a href="#" class="footer__social-link">
+          <img src="../iconos/twitter.svg" alt="twitter">
+        </a>
+      </div>
+      <div class="footer__subscription">
+        <form action="#" class="footer__subscription-form">
+          <label for="email" class="footer__subscription-label">Suscríbete. Mantén tu estilo</label>
+          <input type="email" class="footer__subscription-input" id="email" placeholder="Ingresa tu email aquí">
+          <button type="submit" class="footer__subscription-button">Unirse</button>
+        </form>
+      </div>
+    </div>
+    </footer>
 
       <script type="module" src="/main.js"></script>
 </body>
