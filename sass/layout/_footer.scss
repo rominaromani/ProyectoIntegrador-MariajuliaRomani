@@ -94,5 +94,28 @@
         }
     }
     
-  }
+    @media (max-width: 768px){
+        &{
+            align-items: center;
+            &__content{
+                flex-direction: column;
+            }
+
+            &__nav-list{
+                flex-direction: row;
+                
+
+            }
+
+            &__subscription-form{
+                width: 100%;
+            }
+
+            &__social-container{
+                flex-direction: row;
+                justify-content: space-around;
+            }
+        }
+    }
+}
   
