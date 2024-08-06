@@ -6,11 +6,11 @@ Este drive contiene los archivos relacionados con el Proyector Integrador
 
 ### Enlace a la implementación en Netlify
 
-Puedes acceder a la implementación del proyecto fase 1:
+Puedes acceder a la implementación del proyecto:
 [Netlify](https://storied-salmiakki-2085be.netlify.app).
 
-Publicado en: https://storied-salmiakki-2085be.netlify.app
-[Netlify](https://storied-zabaione-86b290.netlify.app/).
+### Enlace al repositorio en GitHub
+[Repositorio](https://github.com/rominaromani/ProyectoIntegrador-MariajuliaRomani.git)
 
 ### Captura de pantalla al validator w3
 
