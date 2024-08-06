@@ -1,0 +1,64 @@
+{
+    "productos": [
+        { 
+            "id": 1, 
+            "nombre": "BLUSA SATÍN LISO",
+            "foto": "/img/img1.webp", 
+            "precio": "S/. 100"
+        },
+        {
+            "id": 2,
+            "nombre": "VESTIDO STRAPPES FANCY",
+            "foto": "/img/img2.webp",
+            "precio": "S/. 100"
+        },
+        {
+            "id": 3,
+            "nombre": "LONG DRESS LIGERO CON TIRANTES",
+            "foto": "/img/img3.webp",
+            "precio": "S/. 100"
+        },
+        {
+            "id": 4,
+            "nombre": "SWEATER TEJIDO CON BOTONES",
+            "foto": "/img/img4.webp",
+            "precio": "S/. 100"
+        },
+        {
+            "id": 5,
+            "nombre": "SWEATER TEJIDO CON RAYAS",
+            "foto": "/img/img5.webp",
+            "precio": "S/. 100"
+        },
+        {
+            "id": 6,
+            "nombre": "BLUSA SATÍN LISO",
+            "foto": "/img/img6.webp",
+            "precio": "S/. 100"
+        },
+        {
+            "id": 7,
+            "nombre": "SWEATER TEJIDO CON RAYAS",
+            "foto": "/img/img7.webp",
+            "precio": "S/. 100"
+        },
+        {
+            "id": 8,
+            "nombre": "SWEATER BÁSICO CON CIERRE",
+            "foto": "/img/img8.webp",
+            "precio": "S/. 100"
+        },
+        {
+            "id": 9,
+            "nombre": "CROP TOP SLIM FIT STRAPPY",
+            "foto": "/img/img9.webp",
+            "precio": "S/. 100"
+        },
+        {
+            "id": 10,
+            "nombre": "CROP TOP SLIM FIT DE PUNTO CON ABERTURAS FRONTALES",
+            "foto": "/img/img10.webp",
+            "precio": "S/. 100"
+        }
+    ]
+}
